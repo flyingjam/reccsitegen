@@ -1,10 +1,10 @@
 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-    <h2 class="section-heading"> $title </h2>
-    <img class="img-reponsive" src="img/${image}" alt="">
+    <h3> @Model.Title </h3>
+    <img class="img-responsive novel-image" src="img/@Model.ImageUrl" alt="">
     <span class="caption text-muted">
-        ${description}
+        @Model.Description
     </span>
     <p>
-        ${content}
+        @Model.Content
     </p>
 </div>
